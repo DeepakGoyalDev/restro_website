@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:wght@400;600;700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Gerícht</title>
+  </head>
+  <body class="bg-black text-golden">
+    <!-- Header -->
+    <header class="py-3 px-16 flex justify-between items-center">
+      <img class="w-28 h-10" src="assets/images/gericht.png" alt="Logo Image" />
+      <nav class="text-white gap-7 flex font-open">
+        <a class="hover:text-golden" href="">Home </a>
+        <a class="hover:text-golden" href="">Pages</a>
+        <a class="hover:text-golden" href="">Contact Us</a>
+        <a class="hover:text-golden" href="">Blog</a>
+        <a class="hover:text-golden" href="">Landing</a>
+      </nav>
+      <div
+        class="flex justify-center items-center gap-4 text-white font-semibold font-open"
+      >
+        <p>Log in / registration</p>
+        <img src="./assets/images/verticaldivider.svg" />
+        <p>Book table</p>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <section class="flex h-screen px-32 py-16">
+      <div class="flex-1 mr-40 self-center">
+        <p class="text-white text-2xl">Chase the new Flavour</p>
+        <img
+          class="w-7 h-5"
+          src="./assets/images/spoon.svg"
+          alt="spoon image"
+        />
+        <h1>The key to Fine dining</h1>
+        <p class="my-6 text-grey font-open">
+          Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+          volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+          aliquam amet tellus
+        </p>
+        <button class="btn">Explore Menu</button>
+      </div>
+      <img
+        class="w-2/5"
+        src="./assets/images/welcome.png"
+        alt="welcome image"
+      />
+    </section>
+
+    <!-- About Us -->
+    <section class="bg-textureBg px-32 py-16 flex h-screen relative">
+      <div class="inset-0 z-0 absolute flex justify-center items-center">
+        <img class="w-72" src="./assets/images/G.png" alt="BackGround Image" />
+      </div>
+
+      <div class="z-10 self-center mr-16 text-right flex flex-col items-end">
+        <h2>About Us</h2>
+        <img
+          class="w-7 h-5 rotate-180"
+          src="./assets/images/spoon.svg"
+          alt="spoon image"
+        />
+        <p class="my-4 text-grey font-open">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
+          adipiscing ultrices vulputate posuere tristique. In sed odio nec
+          aliquet eu proin mauris et.
+        </p>
+        <button>Know More</button>
+      </div>
+
+      <img class="z-10" src="./assets/images/knife.png" alt="knife image" />
+
+      <div class="z-10 self-center ml-16">
+        <h2>Our History</h2>
+        <img
+          class="w-7 h-5"
+          src="./assets/images/spoon.svg"
+          alt="spoon image"
+        />
+        <p class="my-4 text-grey font-open">
+          Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
+          Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
+          odio nec aliquet.
+        </p>
+        <button>Know More</button>
+      </div>
+    </section>
+
+    <!-- Today Special -->
+    <section class="px-32 py-16 flex flex-col justify-center items-center">
+      <p class="text-2xl text-white">Menu that fits you palatte</p>
+      <img class="w-7 h-5" src="./assets/images/spoon.svg" alt="spoon image" />
+      <h2>Today’s Special</h2>
+
+      <div class="flex self-stretch my-10">
+        <div class="flex-1 flex flex-col justify-between mr-20">
+          <p class="text-center text-2xl text-white">Wine & Beer</p>
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Aperol Spritz</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$56</p>
+            </div>
+            <p class="text-grey text-sm font-open">AU | Bottle</p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Catena Malbec</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$59</p>
+            </div>
+            <p class="text-grey text-sm font-open">AU | Bottle</p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">La Vieille Rosé</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$44</p>
+            </div>
+            <p class="text-grey text-sm font-open">FR | 750 ml</p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Rhino Pale Ale</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$31</p>
+            </div>
+            <p class="text-grey text-sm font-open">CA | 750 ml</p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Irish Guinness</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$26</p>
+            </div>
+            <p class="text-grey text-sm font-open">IE | 750 ml</p>
+          </div>
+        </div>
+
+        <img class="w-3/12" src="./assets/images/menu.png" alt="menu image" />
+
+        <div class="flex-1 flex flex-col justify-between ml-20">
+          <p class="text-center text-2xl text-white">Cocktails</p>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Aperol Spritz</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$20</p>
+            </div>
+            <p class="text-grey text-sm font-open">
+              Aperol | Villa Marchesi prosecco | soda | 30ml
+            </p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Dark 'N' Stormy</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$16</p>
+            </div>
+            <p class="text-grey text-sm font-open">
+              Dark rum | Ginger beer | Slice of lime.
+            </p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Daiquiri</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$10</p>
+            </div>
+            <p class="text-grey text-sm font-open">
+              Rum | Citrus juice | Sugar
+            </p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Old Fashioned</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$31</p>
+            </div>
+            <p class="text-grey text-sm font-open">
+              Bourbon | Brown sugar | Angostura Bitters
+            </p>
+          </div>
+
+          <div>
+            <div class="flex items-center">
+              <p class="text-xl w-7/12">Negroni</p>
+              <hr class="w-3/12" />
+              <p class="text-white w-2/12 text-right">$26</p>
+            </div>
+            <p class="text-grey text-sm font-open">
+              Gin | Sweet Vermouth | Campari | Orange
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button>View More</button>
+    </section>
+
+    <!-- Chef Words -->
+    <section class="bg-textureBg flex px-32 py-16 h-screen">
+      <img src="./assets/images/chef.png" alt="Chef Image" />
+      <div class="ml-24 flex flex-col justify-center">
+        <p class="text-white text-xl">Chef’s Word</p>
+        <img
+          class="w-7 h-5"
+          src="./assets/images/spoon.svg"
+          alt="Spoon Image"
+        />
+        <h2>What we believe in</h2>
+
+        <img
+          class="w-10 h-10"
+          src="./assets/images/quote.png"
+          alt="quote image"
+        />
+        <p class="font-open italic text-grey text-sm">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit.
+          auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+          Nulla scelerisque scelerisque congue ac consequat, aliquam molestie
+          lectus eu. Congue iaculis integer curabitur semper sit nunc.
+        </p>
+
+        <p class="mt-10 text-2xl">Kevin Luo</p>
+        <p class="mb-10 text-grey text-sm font-open">Chef & Founder</p>
+        <img class="w-40" src="./assets/images/sign.png" alt="Sign Image" />
+      </div>
+    </section>
+
+    <!-- Video -->
+    <video width="w-screen" height="h-screen" controls>
+      <source src="./assets/videos/meal.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Awards -->
+    <section class="bg-textureBg flex px-32 py-16 h-screen relative">
+      <div class="mr-10 flex flex-col justify-center">
+        <p class="text-xl text-white">Awards & recognition</p>
+        <img
+          class="w-7 h-5"
+          src="./assets/images/spoon.svg"
+          alt="spoon image"
+        />
+        <h2>Our Laurels</h2>
+        <div class="flex flex-wrap justify-between">
+          <div class="flex w-45 items-center mt-10">
+            <img class="w-1/4" src="./assets/images/award02.png" />
+            <div class="ml-5">
+              <p>Bib Gourmond</p>
+              <p class="text-grey text-sm font-open">
+                Lorem ipsum dolor sit amet, consectetur.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex w-45 items-center mt-10">
+            <img class="w-1/4" src="./assets/images/award01.png" />
+            <div class="ml-5">
+              <p>Rising Star</p>
+              <p class="text-grey text-sm font-open">
+                Lorem ipsum dolor sit amet, consectetur.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex w-45 items-center mt-10">
+            <img class="w-1/4" src="./assets/images/award05.png" />
+            <div class="ml-5">
+              <p>AA Hospitality</p>
+              <p class="text-grey text-sm font-open">
+                Lorem ipsum dolor sit amet, consectetur.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex w-45 items-center mt-10">
+            <img class="w-1/4" src="./assets/images/award03.png" />
+            <div class="ml-5">
+              <p>Outstanding Chef</p>
+              <p class="text-grey text-sm font-open">
+                Lorem ipsum dolor sit amet, consectetur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/images/laurels.png" alt="Laurels Image" />
+      <img
+        class="w-20 absolute top-8 left-8"
+        src="./assets/images/logo.png"
+        alt="logo image"
+      />
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="py-8 px-16 flex pr-0 items-center gap-4">
+      <div class="mr-4">
+        <p class="text-white text-xl">Instagram</p>
+        <img
+          class="w-7 h-5"
+          src="./assets/images/spoon.svg"
+          alt="spoon image"
+        />
+        <h2>Photo Gallery</h2>
+        <p class="text-grey text-sm my-4 font-open">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
+          mattis ipsum turpis elit elit scelerisque egestas mu.
+        </p>
+        <button>View More</button>
+      </div>
+      <a class="relative" href="">
+        <img src="./assets/images/gallery01.png" alt="gallery image" />
+        <div
+          class="border-[0.5px] border-golden z-10 absolute bg-black opacity-0 inset-0 justify-center flex items-center hover:opacity-70"
+        >
+          <img class="w-10" src="./assets/images/insta.svg" alt="insta logo" />
+        </div>
+      </a>
+      <a class="relative" href=".">
+        <img
+          class="w-30"
+          src="./assets/images/gallery02.png"
+          alt="gallery image"
+        />
+        <div
+          class="border-[0.5px] border-golden z-10 absolute bg-black opacity-0 inset-0 justify-center flex items-center hover:opacity-70"
+        >
+          <img class="w-10" src="./assets/images/insta.svg" alt="insta logo" />
+        </div>
+      </a>
+      <a class="relative" href="">
+        <img
+          class="w-30"
+          src="./assets/images/gallery03.png"
+          alt="gallery image" />
+        <div
+          class="border-[0.5px] border-golden z-10 absolute bg-black opacity-0 inset-0 justify-center flex items-center hover:opacity-70"
+        >
+          <img
+            class="w-10"
+            src="./assets/images/insta.svg"
+            alt="insta logo"
+          /></div
+      ></a>
+
+      <a class="relative" href="">
+        <img
+          class="w-30"
+          src="./assets/images/gallery04.png"
+          alt="gallery image"
+        />
+        <div
+          class="border-[0.5px] border-golden z-10 absolute bg-black opacity-0 inset-0 justify-center flex items-center transition-all hover:opacity-70"
+        >
+          <img class="w-10" src="./assets/images/insta.svg" alt="insta logo" />
+        </div>
+      </a>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-textureBg flex px-32 py-16 h-screen">
+      <div class="mr-20 self-center">
+        <p class="text-white text-xl">Contact</p>
+        <img
+          class="w-7 h-5"
+          src="./assets/images/spoon.svg"
+          alt="spoon image"
+        />
+        <h2>Find Us</h2>
+        <p class="text-grey font-open py-8 text-sm">
+          Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG
+        </p>
+        <p title="text-2xl">Opening Hours</p>
+        <p class="text-white mt-4 font-open text-sm">
+          Mon - Fri: 10:00 am - 02:00 am
+        </p>
+        <p class="text-white mt-4 font-open text-sm">
+          Sat - Sun: 10:00 am - 03:00 am
+        </p>
+        <button class="mt-9">Visit Us</button>
+      </div>
+      <img src="./assets/images/findus.png" alt="find us image" />
+    </section>
+
+    <!-- NewsLetter -->
+    <section class="flex px-32 py-16 flex-col justify-center items-center">
+      <p class="text-white text-xl">Newsletter</p>
+      <img class="w-7 h-5" src="./assets/images/spoon.svg" alt="spoon image" />
+      <h2>Subscribe to Our Newsletter</h2>
+      <p class="text-white font-open py-8 text-sm">
+        And never miss latest Updates!
+      </p>
+      <div class="self-stretch justify-center flex">
+        <input
+          class="focus:border-white w-1/2 mr-4 px-5 py-1.5 bg-transparent border border-solid border-golden"
+          placeholder="Email Address"
+          type="email"
+        />
+        <button>Subscribe</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-textureBg px-24 py-16">
+      <div class="flex">
+        <div class="flex-1 flex flex-col justify-center items-center">
+          <h4 class="text-white">Contact Us</h4>
+          <p class="text-grey text-sm my-4 font-open">
+            9 W 53rd St, New York, NY 10019, USA
+          </p>
+          <p class="text-grey text-sm font-open">+1 212-344-1230</p>
+          <p class="text-grey text-sm font-open">+1 212-555-1230</p>
+        </div>
+        <div class="flex-1 flex flex-col justify-center items-center">
+          <h2 class="uppercase">Gerícht</h2>
+          <p class="text-center mt-8 text-white text-sm font-open">
+            "The best way to find yourself is to lose yourself in the service of
+            others.”
+          </p>
+          <img
+            class="w-7 h-5"
+            src="./assets/images/spoon.svg"
+            alt="spoon image"
+          />
+          <div class="flex gap-3 mt-2">
+            <img src="./assets/images/fb.svg" alt="fb logo" />
+            <img src="./assets/images/insta.svg" alt="insta logo" />
+            <img src="./assets/images/twitter.svg" alt="twitter logo" />
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col justify-center items-center">
+          <h4 class="text-white">Working Hours</h4>
+          <p class="text-grey text-sm mt-4 font-open">Monday-Friday:</p>
+          <p class="text-grey text-sm font-open">08:00 am -12:00 am</p>
+          <p class="text-grey text-sm mt-2 font-open">Saturday-Sunday:</p>
+          <p class="text-grey text-sm font-open">07:00am -11:00 pm</p>
+        </div>
+      </div>
+      <p class="text-center text-sm text-grey mt-16 font-open">
+        2021 Gerícht. All Rights reserved.
+      </p>
+    </footer>
+    <script>
+      console.log(window.innerWidth, window.innerHeight);
+    </script>
+  </body>
+</html>
